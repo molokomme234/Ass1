@@ -15,7 +15,7 @@ To install the required packages, you can use the following commands in your ter
 
 bash
 Copy code
-pip install opencv-python-headless numpy matplotlib scikit-image scikit-learn
+#pip install opencv-python-headless numpy matplotlib scikit-image scikit-learn
 How to Run the Code
 Download the Dataset:
 
@@ -39,11 +39,11 @@ Modify Paths if Necessary:
 Ensure that the paths to your image directory, results directory, and metrics directory are correctly set in the notebook. You can modify them if needed. The current paths are:
 python
 Copy code
-image_dir = r'C:\Users\molok\OneDrive\Desktop\cos791'
-results_dir = r'C:\Users\molok\OneDrive\Desktop\cos791\results'
-metrics_dir = r'C:\Users\molok\OneDrive\Desktop\cos791\metrics'
-Adjust these paths as per your system configuration.
-Run the Notebook Cells:
+#image_dir = r'C:\Users\molok\OneDrive\Desktop\cos791'
+#results_dir = r'C:\Users\molok\OneDrive\Desktop\cos791\results'
+#metrics_dir = r'C:\Users\molok\OneDrive\Desktop\cos791\metrics'
+#Adjust these paths as per your system configuration.
+#Run the Notebook Cells:
 
 Execute each cell of the notebook in sequence. The cells perform the following actions:
 Load images from the dataset.
@@ -57,7 +57,7 @@ After the notebook finishes executing, you will find the processed images saved 
 Directory Structure
 The expected directory structure after running the notebook is as follows:
 
-bash
+#bash
 Copy code
 ├── cos791
 │   ├── results            # Directory for processed images
@@ -68,7 +68,7 @@ Copy code
 Customization Options
 Noise Reduction Method:
 
-The noise reduction can be applied using Gaussian, median, or bilateral filtering. You can adjust this by modifying the method argument in the noise_reduction function.
+#The noise reduction can be applied using Gaussian, median, or bilateral filtering. You can adjust this by modifying the method argument in the noise_reduction function.
 Gradient Calculation Method:
 
 The gradient calculation can be performed using Sobel, Prewitt, or Laplacian operators. This can be changed by altering the method argument in the gradient_calculation function.
